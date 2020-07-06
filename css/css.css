@@ -1,0 +1,290 @@
+﻿*{
+  margin:0;
+  padding:0;
+  outline:none;
+}
+
+body{
+  font-family:arial;
+  font-size:16px;
+  color:#000;
+}
+
+.navSection {
+	width: 920px;
+	height: 55px;
+	padding: 0px 0px;
+	background: #000;
+	position: relative;
+	transition: 3s;
+	border-bottom: 2px solid #768;
+	margin: 0 auto;
+}
+.navSection .logo {
+	width: 30%;
+	height: 50px;
+	padding: 2px 2px;
+	overflow: hidden;
+	float: left;
+}
+.navSection .logo img {
+	width: 151px;
+	height: 50px;
+}
+.navSection .navbar {
+	padding: 2px 2px;
+	float: right;
+}
+.navSection .navbar ul{
+  margin:0;
+  padding:0;
+  outline:none;
+  list-style-type: none;
+}
+.navSection .navbar ul li{
+  display:inline;
+}
+.navSection .navbar ul li a {
+	text-align: center;
+	width: auto;
+	height: auto;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	font-size: 18px;
+	transition: 2s;
+}
+.navSection .navbar ul li a:visited {
+   color:green;
+   background:#fff;
+   transition:2s;
+}
+.navSection .navbar ul li a:active {
+   color:green;
+   background:#fff;
+   transition:2s;
+   width:60px;
+   height:auto;
+   padding:5px 10px;
+}
+.navSection .navbar ul li a:hover {
+   color:green;
+   background:#fff;
+   transition:2s;
+}
+
+.mainContent {
+	width: 920px;
+	height: auto;
+	padding: 0px 0px;
+	position: relative;
+	transition: 3s;
+	margin: 0 auto;
+}
+
+.mainContent .mainTop {
+	background: grey;
+	height: 350px;
+	width: 920px;
+	margin-top: 5px;
+	overflow:hidden;
+
+}
+.mainContent .mainTop img{
+  width:200px;
+  height:200px;
+  margin-left:350px;
+  border-radius:50%;
+  border:2px solid #000;
+  
+}
+.mainContent .mainTop h4{
+  color:#000;
+  font-size:40px;
+  text-align:center;
+}
+.mainContent .mainTop p {
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+	padding:5px 0px;
+}
+.mainContent .mainTop a {
+	color:#000;
+	text-decoration: none;
+
+}
+#typed2{
+  color:#fff;
+}
+
+.skillProgress {
+	background: lightgrey;
+	height: auto;
+	width: 920px;
+	padding: 4px 0px;
+	margin: 5px 0px;
+}
+.skillProgress h2 {
+	width: auto;
+	font-size: 26px;
+	color: #000;
+	text-align: left;
+	padding: 2px 0px;
+	border-bottom: 2px solid #000;
+	margin: 0px 10px;
+}
+.skillProgress .skillList {
+	width: 920px;
+	height: auto;
+	position: relative;
+	margin: 10px 0px;
+	overflow: hidden;
+}
+.skillList .skillTitle {
+	width: 920px;
+	height: 22px;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 2px 10px;
+	color: #494153;
+}
+.skillList .skilltype {
+	width: 898px;
+	height: 10px;
+	background: #eff9ff;
+	float: left;
+	padding: 2px 2px;
+	margin: 0px 10px;
+}
+
+.skillgrid {
+	width: 0;
+	height: 10px;
+	background: #8c9293;
+	transition: 1s linear;
+	position: relative;
+}
+
+
+.skillgrid::after {
+	content: attr(per);
+	position: absolute;
+	padding: 4px 4px;
+	background: #757975;
+	color: #fff;
+	font-size: 10px;
+	border-radius: 4px;
+	top: -28px;
+	right: 0;
+	transform: translateX(50%);
+}
+/*Services Content Section*/
+.serviceSection {
+	background: #808080cc;
+	height: auto;
+	width: 920px;
+	padding: 10px 0px;
+	margin: 5px 0px;
+	overflow: hidden;
+}
+.serviceSection h2 {
+	font-size: 26px;
+	color: #000;
+	margin: 0px 10px;
+	border-bottom: 2px solid #000;
+	text-transform: capitalize;
+}
+.serviceItem {
+	width: 286px;
+	height: auto;
+	background: #26233f66;
+	margin: 10px 10px;
+	display: block;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	box-shadow: 1px 1px 1px 1px #0006;
+}
+.serviceItem img {
+	width: 284px;
+	height: 140px;
+	padding: 2px 2px;
+}
+
+.serviceItem p {
+	color: #151010;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 0px;
+}
+/*Contact Form Section*/
+.contactSectiom {
+	background: grey;
+	height: auto;
+	width: 920px;
+	padding: 5px 0px;
+	margin: 5px 0px;
+	overflow: hidden;
+}
+.contactSectiom h2 {
+	font-size: 26px;
+	border-bottom: 2px solid #000;
+	margin: 3px 10px;
+}
+.contactArea {
+	margin: 10px 10px;
+	overflow: hidden;
+}
+.formField {
+	width: 300px;
+	height: auto;
+	float: left;
+	display: block;
+	margin: 0px 0px;
+}
+label {
+	color: #eaebf84d;
+	font-size: 16px;
+	text-transform: capitalize;
+}
+
+.formField input[type="text"], input[type="email"], input[type="number"] {
+	width: 98%;
+	height: 36px;
+	padding: 0px 2px;
+}
+
+textarea {
+	margin: 2px 0px;
+	width: 897px;
+	height: 200px;
+	font-size: 16px;
+	padding: 2px;
+}
+button {
+	width: auto;
+	padding: 4px 10px;
+	background: #0000000e;
+	outline: none;
+	font-size: 17px;
+	color: #fff;
+	height: auto;
+}
+
+/*Footer section code here*/
+.footerSection{
+  background:black;
+  width:920px;
+  height:50px;
+  margin:0 auto;
+}
+.footerSection p {
+	color: #fff;
+	font-size: 14px;
+	padding: 19px 0px;
+	text-align: center;
+}
